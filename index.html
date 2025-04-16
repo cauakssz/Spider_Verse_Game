@@ -1,0 +1,235 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider Verse 🕸️</title>
+    <link rel="stylesheet" href="Spider Verse 🕸️.css">
+    <script src="Spider Verse 🕸️.js"></script>
+
+   
+    <style>
+        .tela {
+            display: none;
+        }
+
+        .ativa {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+  <img src="https://i.postimg.cc/J0C8Z8Cy/Design-sem-nome.png"
+       alt="Logo" class="logo" border='0'width='20'height='50'border-radius='8'>
+
+
+   <!--Tela 1-->
+<div id="tela1" class="tela ativa">
+        <div class="container1">
+            <div class="content1">
+                <h2>O Sexteto Sinistro Multiversal está Atacando!!</h2>
+              <h2>Qual Spider conseguirá vencê-los?</h2>
+                <p>Vai Teia!!!</p>
+              
+              <p style='font-size:20px;'>&#9660;</p>
+                <button onclick="playSpiderSound(); mostrarTelaComSom('tela2')" id="btn" class="button1"><img src="https://i.postimg.cc/LXL4pSwM/fe88d86e-6a0f-4e76-a856-1934ee159073.png" class="button_img1"></button>
+      
+            </div>
+        </div>
+    </div>
+
+   <!--Tela 2-->
+    <div id="tela2" class="tela">
+        <div class="container2">
+            <div class="content2">
+
+                <h1>Escolha Seu Spider Para esta luta:</h1>
+                <div class="spider-grid">
+                    <div>
+                        <button onclick="jogar(1)"id="botaoSpider">
+                            <img src="https://i.postimg.cc/vmGy5f9y/Spider-Man-from-MSM-render.webp" class="button_img">
+                            <p>Homem Aranha (Insomniac)</p>
+                            <p></p>
+                        </button>
+                    </div>
+
+                    <div>
+                        <button onclick="jogar(2)"id="botaoSpider">
+                            <img src="https://i.postimg.cc/YS7FgnbS/df4bajc-2c8eca60-7143-45ba-8355-05fa5a7b84a4.png" class="button_img">
+                            <p>Homem Aranha (Andrew Garfield)</p>
+                          <p></p>
+                        </button>
+                    </div>
+
+                    <div>
+                        <button onclick="jogar(3)"id="botaoSpider">
+                            <img src="https://i.postimg.cc/FKchCCnN/fixed-which-gwen-stacy-spider-woman-outfit-is-better-v0-q8nlf4ak6sxb1.webp" class="button_img">
+                            <p>Spider Gwen</p>
+                        </button>
+                    </div>
+
+                    <div>
+                        <button onclick="jogar(4)"id="botaoSpider">
+                            <img src="https://i.postimg.cc/BQ1Pz9z6/pngkey-com-wish-png-7995924.png" class="button_img">
+                            <p>Homem Aranha (Miles Morales)</p>
+                          <p></p>
+                        </button>
+                    </div>
+
+                    <div>
+                        <button onclick="jogar(5)"id="botaoSpider">
+                            <img src="https://i.postimg.cc/rw108GM2/pngwing-com-4.png" class="button_img">
+                            <p>Homem Aranha (LEGO)</p>
+                          <p></p>
+                        </button>
+                    </div>
+
+                    <div>
+                        <button onclick="jogar(6)"id="botaoSpider">
+                            <img src="https://i.postimg.cc/FHnZXVg4/clipart626887.png" class="button_img">
+                            <p>Homem Aranha Simbionte</p>
+                        </button>
+                    </div>
+
+                    <div>
+                        <button onclick="jogar(7)"id="botaoSpider">
+                            <img src="https://i.postimg.cc/25pDWFjJ/spider-man-2nd-homemade-suit-nwh-png11-by-iwasboredsoididthis-dfy46go-pre.png" class="button_img">
+                            <p>Homem Aranha  (Tom Holland)</p>
+                          <p></p>
+                        </button>
+                    </div>
+
+                    <div>
+                        <button onclick="jogar(8)"id="botaoSpider">
+                            <img src="https://i.postimg.cc/G201ChPh/pngimg-com-spider-man-PNG34.png" class="button_img">
+                            <p>Homem Aranha (Tobey Maguire)</p>
+                          
+                        </button>
+                    </div>
+                  
+                  <div>
+                        <button onclick="jogar(9)"id="botaoSpider">
+                            <img src="https://i.postimg.cc/CMJS2qJB/spider-man-2099-render-by-kiss-and-kancer-defqomh-pre.png" class="button_img">
+                            <p>Homem Aranha 2099</p>
+                          
+                        </button>
+                    </div>
+                  
+                  <div>
+                        <button onclick="jogar(10)"id="botaoSpider">
+                            <img src="https://i.postimg.cc/Yq9B2t7r/klipartz-com-1.png" class="button_img">
+                            <p>Homem Aranha Superior</p>
+                        </button>
+                    </div>
+                  
+                   <div>
+                        <button onclick="jogar(11)"id="botaoSpider">
+                            <img src="https://i.postimg.cc/Zn52qx17/Silk-Dialogue-1.webp" class="button_img">
+                            <p>Silk  (Cindy Moon)</p>
+                         
+                        </button>
+                    </div>
+                  
+                   <div>
+                        <button onclick="jogar(12)"id="botaoSpider">
+                            <img src="https://i.postimg.cc/gJX4tBbP/pngimg-com-venom-PNG41.png" class="button_img">
+                            <p>Venom (Protetor Letal)</p>
+                          <p></p>
+                        </button>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                 <!--Tela 3-->
+ <div id="tela3" class="tela">
+        <div class="container3">
+            <div class="content3">
+                <div id="resultado-container" class="resultado-container"></div>
+                <p>Com grandes poderes vêm grandes responsabilidades</p>
+                <p style='font-size:20px;'>&#9660;</p>
+                <button onclick="playSpiderSound(); mostrarTelaComSom('tela1'); handleTela3Button()" class="button1">
+                    <img src="https://i.postimg.cc/LXL4pSwM/fe88d86e-6a0f-4e76-a856-1934ee159073.png" class="button_img1">
+                </button>
+            </div>
+        </div>
+    </div>
+  
+        <!--Tela 4-->
+ <div id="tela4" class="tela">
+        <div class="container4">
+            <div class="content4">
+                <div id="resultado-container" class="resultado-container"></div>
+              <h1>Vitória Brutal!!</h1>
+              <h1>Homem Aranha Simbionte é movido pelo ódio</h1>
+              <h3>Nenhum vilão sairá daqui vivo!!</h3>
+              <p>Força: ?</p>
+              <h2>Sexteto Sinistro</h2>
+              <p>Derrotados com Brutalidade...</p>
+              <img src="https://i.postimg.cc/K8b5BwNk/8334cf1b-ab75-49e7-aa2e-e637dec11fc3.jpg" class=simbionte></img>
+                <p>Oque foi? Vai chorar?</p>
+                <p style='font-size:20px;'>&#9660;</p>
+                <button onclick=" mostrarTelaComSom('tela1')" class="button2">
+                    <img src="https://i.postimg.cc/Hx6V3Ns2/1ed7a967-1279-44de-99e3-1b898e861a15.png" class="button_img2">
+                </button>
+            </div>
+        </div>
+    </div>
+   
+  
+  <!--Tela 5-->
+ <div id="tela5" class="tela">
+        <div class="container5">
+            <div class="content5">
+                <div id="resultado-container" class="resultado-container"></div>
+              <h1>Vitória Letal!!</h1>
+              <h2>Venom reviveu seu hospedeiro</h2>
+              <h1>Nada pode parar sua sede de vingança!!</h1>
+              <h3>Nos Somos Venom!!</h3>
+              <p>Força: ?</p>
+              <h2>Sexteto Sinistro</h2>
+              <p>Viraram alimento do Simbionte...</p>
+              <video autoplay loop muted playsinline class="simbionte" style="width:100%; height:auto;">
+  <source src="https://archive.org/download/vid-20250410-145331/VID_20250410_145331.mp4" type="video/mp4">
+  Seu navegador não suporta vídeos HTML5.
+</video>
+                <p>Juntos somos mais fortes!</p>
+                <p style='font-size:20px;'>&#9660;</p>
+                <button onclick=" mostrarTelaComSom('tela1')" class="button2">
+                    <img src="https://i.postimg.cc/L5vYk1FF/Design-sem-nome-1-1.png" class="button_img2">
+                </button>
+            </div>
+        </div>
+    </div>
+  
+  
+  <!--Tela 6-->
+ <div id="tela6" class="tela">
+        <div class="container6">
+            <div class="content6">
+                <div id="resultado-container" class="resultado-container"></div>
+              <h1>Vitória Esmagadora!!</h1>
+              <h1>Algo corrompeu seu spider!!</h1>
+              <h3>A raiva toma conta do seu heroi</h3>
+             
+              <p>Força: ?</p>
+              <h2>Sexteto Sinistro</h2>
+              <p>Derrotados sem piedade...</p>
+              <video autoplay loop muted playsinline class="tobey" style="width:100%; height:auto;">
+  <source src="https://archive.org/download/spider-man-black-suit-theme-bully-maguire-theme-epic-version-spider-man-3-soundtrack-mp-3-160-k-1/lv_0_20250410172007.mp4" type="video/mp4">
+  Seu navegador não suporta vídeos HTML5.
+</video>
+                <p>Oque foi? Vai chorar?</p>
+                <p style='font-size:20px;'>&#9660;</p>
+                <button onclick=" mostrarTelaComSom('tela1')" class="button2">
+                    <img src="https://i.postimg.cc/Hx6V3Ns2/1ed7a967-1279-44de-99e3-1b898e861a15.png" class="button_img2">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    </main>
