@@ -61,7 +61,6 @@ body {
     border-radius: 5px;
 }
 
-/* Content div for text and button */
 .content1,
 .content2,
 .content3,
@@ -137,9 +136,9 @@ p {
     height: 60px;
 }
 .content2 button {
-  height: 200px; /* Altura fixa */
-  padding: 0; /* Remove espaçamento interno */
-  border: none; /* Remove borda padrão */
+  height: 200px; 
+  padding: 0;
+  border: none;
     background: transparent;
     border: none;
     width: 150px;
@@ -153,10 +152,10 @@ p {
     background-color: rgba(0, 0, 0, 0.753);
 }
 .container2 button-img {
-  width: 100%; /* Ocupa 100% do botão */
+  width: 100%; 
   height: 100%; 
-  object-fit: cover; /* Redimensiona a imagem cobrindo o espaço sem distorcer */
-  object-position: center; /* Centraliza a imagem */
+  object-fit: cover; 
+  object-position: center;
 }
 .button_img {
     height: 100px;
